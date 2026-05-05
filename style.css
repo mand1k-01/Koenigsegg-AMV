@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans',sans-serif;
+    letter-spacing: -1px;
+}
+
+html,body{
+    height: 100%;
+    background-color: #ccc;
+    background-image: url();
+}
+
+#pageHead{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+video{
+    width: 90%;
+    max-width: 1280px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,2);
+    object-fit: cover;
+    /*Preenche o espaço cortando as bordas, como no Instagram.*/
+    object-fit: contain;
+    /*Mostra o vídeo inteiro sem cortar, mas pode deixar barras pretas.*/
+}
+
+.buttons{
+    width: 100%;
+    text-align: center;
+
+}
+
+#barraProgresso{
+    cursor: pointer;
+    accent-color: black;
+    height: 10px;
+}
+
+#btnPlay{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnPause{
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnMaisVeloz{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnMenosVeloz{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnMutar{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnPularTempo{
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnVoltarTempo{
+    width: 90px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btnPlay:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnPause:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnMaisVeloz:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnMenosVeloz:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnMutar:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnPularTempo:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+#btnVoltarTempo:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
+.buttons > label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.buttons > input[type=range]{
+    max-width: 150px;
+    accent-color: black;
+}
